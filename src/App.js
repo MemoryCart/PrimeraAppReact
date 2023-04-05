@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { PrimerComponente } from './components/PrimerComponente';
 import { SegundoComponente } from './components/SegundoComponente';
+import  { TercerComponente } from './components/TercerComponente';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <PrimerComponente />
 
         <SegundoComponente />
+
+        < TercerComponente />
       </header>
     </div>
   );
